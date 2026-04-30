@@ -9,7 +9,8 @@ Dibuat sebagai bagian dari Tugas UTS Pemrograman Web — eksperimen ini mendokum
 ## 📸 Demo Eksperimen
 
 ### 1. Halaman Login — Target App (Port 3000)
-![Halaman Login](<img width="1321" height="692" alt="hal login" src="https://github.com/user-attachments/assets/99327f6f-42ce-4401-8a99-a48e6429524d" />)
+![halaman login](<img width="1321" height="692" alt="hal login" src="https://github.com/user-attachments/assets/ccb24490-9c86-403c-ae24-861b5002b21f" />)
+
 > *Aplikasi simulasi bank "MyBank" — alice login dengan saldo awal Rp5.000.000*
 
 ---
