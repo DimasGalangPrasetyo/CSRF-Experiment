@@ -30,10 +30,9 @@ Dibuat sebagai bagian dari Tugas UTS Pemrograman Web — eksperimen ini mendokum
 ---
 
 ### 4. Serangan Ditolak — Protected App (Port 3001)
-![Protected](<img width="1321" height="692" alt="serangan ditolak" src="https://github.com/user-attachments/assets/9cb5c576-b9da-4b34-81e1-3a0b21a9dabf" />
+![Protected](<img width="1321" height="692" alt="hal login" src="https://github.com/user-attachments/assets/6a818f50-1b60-4eb5-8f79-483bd9ff1192" />
 )
 > *Versi yang terlindungi menampilkan error 403 — serangan gagal total*
-<img width="1321" height="692" alt="hal login" src="https://github.com/user-attachments/assets/6a818f50-1b60-4eb5-8f79-483bd9ff1192" />
 
 ---
 
