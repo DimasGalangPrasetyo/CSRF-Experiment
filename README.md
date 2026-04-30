@@ -183,3 +183,6 @@ app.use(session({
 - [npm — csurf middleware](https://www.npmjs.com/package/csurf)
 
 ---
+
+<img width="1321" height="692" alt="plagiat" src="https://github.com/user-attachments/assets/df3e85bb-641b-473a-96c6-690bb6d3d61a" />
+
