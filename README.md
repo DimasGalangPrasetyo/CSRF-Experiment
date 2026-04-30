@@ -9,26 +9,31 @@ Dibuat sebagai bagian dari Tugas UTS Pemrograman Web — eksperimen ini mendokum
 ## 📸 Demo Eksperimen
 
 ### 1. Halaman Login — Target App (Port 3000)
-![Halaman Login](screenshots/ss_login.png)
+![Halaman Login](<img width="1321" height="692" alt="hal login" src="https://github.com/user-attachments/assets/99327f6f-42ce-4401-8a99-a48e6429524d" />
+)
 > *Aplikasi simulasi bank "MyBank" — alice login dengan saldo awal Rp5.000.000*
 
 ---
 
 ### 2. Halaman Penyerang — Attacker Site (Port 4000)
-![Attacker Site](screenshots/ss_attacker.png)
+![Attacker Site](<img width="1321" height="692" alt="hal penyerang" src="https://github.com/user-attachments/assets/0160d632-8a70-4857-bb0c-30860da57871" />
+)
 > *Halaman "Klaim Hadiah" palsu yang menyembunyikan form transfer di baliknya*
 
 ---
 
 ### 3. Serangan Berhasil — Saldo Berkurang
-![Saldo Berkurang](screenshots/ss_attacked.png)
+![Saldo Berkurang](<img width="1321" height="692" alt="saldo berkurang" src="https://github.com/user-attachments/assets/fa649ea7-e909-4358-90cb-48d98aeb24d6" />
+)
 > *Setelah klik "Klaim Hadiah", saldo alice berkurang Rp1.000.000 tanpa sadar melakukan transfer*
 
 ---
 
 ### 4. Serangan Ditolak — Protected App (Port 3001)
-![Protected](screenshots/ss_protected.png)
+![Protected](<img width="1321" height="692" alt="serangan ditolak" src="https://github.com/user-attachments/assets/9cb5c576-b9da-4b34-81e1-3a0b21a9dabf" />
+)
 > *Versi yang terlindungi menampilkan error 403 — serangan gagal total*
+<img width="1321" height="692" alt="hal login" src="https://github.com/user-attachments/assets/6a818f50-1b60-4eb5-8f79-483bd9ff1192" />
 
 ---
 
